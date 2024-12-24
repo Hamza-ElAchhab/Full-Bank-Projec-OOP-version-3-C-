@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Centers">
+      <UniqueIdentifier>{acac9bbb-8768-4f0a-a968-70eb1b13614f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Globals">
+      <UniqueIdentifier>{da12cca4-906c-4f24-8e46-79c68c31e4a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menus">
+      <UniqueIdentifier>{e2b13a11-6eac-4915-bfe4-5748a487f2c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens_Of_MainMenu">
+      <UniqueIdentifier>{8e9c660d-8bbc-46f2-93c4-b4f1d4eb77f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens_Of_TransactionsMenu">
+      <UniqueIdentifier>{28820f36-5ece-49aa-bd1f-f1c59a35c860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens_Of_ManageUsersMenu">
+      <UniqueIdentifier>{9b7345d5-803a-4b42-8708-1e1fe8583fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Login Screen">
+      <UniqueIdentifier>{fa923507-52b8-421a-8f39-7bd37f046bb4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Full Bank Projec OOP version 3 C++.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FilesNames.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="CenterClients.h">
+      <Filter>Header Files\Centers</Filter>
+    </ClInclude>
+    <ClInclude Include="headerOfScreens.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu_Screen.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Input_Validation.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="AddNewClient_Screen.h">
+      <Filter>Header Files\Screens_Of_MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientsList_Screen.h">
+      <Filter>Header Files\Screens_Of_MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteClient_Screen.h">
+      <Filter>Header Files\Screens_Of_MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="UpDateClient_Screen.h">
+      <Filter>Header Files\Screens_Of_MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="FindClient_Screen.h">
+      <Filter>Header Files\Screens_Of_MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TransactionsMenu_Screen.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Deposite_Screen.h">
+      <Filter>Header Files\Screens_Of_TransactionsMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="WithDarw_Screen.h">
+      <Filter>Header Files\Screens_Of_TransactionsMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TotalBalances_Screen.h">
+      <Filter>Header Files\Screens_Of_TransactionsMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="CenterUsers.h">
+      <Filter>Header Files\Centers</Filter>
+    </ClInclude>
+    <ClInclude Include="UsersList_Screen.h">
+      <Filter>Header Files\Screens_Of_ManageUsersMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="ManageUsersMenu_Screen.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="AddNewUser_Screen.h">
+      <Filter>Header Files\Screens_Of_ManageUsersMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteUser_Screen.h">
+      <Filter>Header Files\Screens_Of_ManageUsersMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateUser_Screen.h">
+      <Filter>Header Files\Screens_Of_ManageUsersMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="FindUser_Screen.h">
+      <Filter>Header Files\Screens_Of_ManageUsersMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalUser.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Login_Screen.h">
+      <Filter>Header Files\Login Screen</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
